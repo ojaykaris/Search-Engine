@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search engine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          id="search-item"
+          placeholder="Search Products"
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="/A-img/tshirt1.jpg" alt="" />
+          <div class="p-details">
+            <h2>Tshirt for Outdoor</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="/A-img/tshirt2.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt for Summer</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="/A-img/tshirt3.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt for Voque</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="/A-img/tshirt4.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt for everyone</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="/A-img/tshirt5.webp" alt="" />
+          <div class="p-details">
+            <h2>Tshirt for Men</h2>
+            <h3>$30</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/hoodie1.webp" alt="" />
+          <div class="p-details">
+            <h2>Hoodie Fashion Men</h2>
+            <h3>$70</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/hoodie2.jpg" alt="" />
+          <div class="p-details">
+            <h2>Hoodie Fashion Winter</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/hoodie3.jpg" alt="" />
+          <div class="p-details">
+            <h2>Hoodie Fashion Classic</h2>
+            <h3>$50</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/hoodie4.jpg" alt="" />
+          <div class="p-details">
+            <h2>Hoodie Fashion Couple</h2>
+            <h3>$40</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/hoodie6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Hoodie Fashion Swagg</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/shoes2.jpg" alt="" />
+          <div class="p-details">
+            <h2>Adidas Grand Court Sneaker</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/shoes4.jpg" alt="" />
+          <div class="p-details">
+            <h2>Dove Shoes</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/shoes5.jpg" alt="" />
+          <div class="p-details">
+            <h2>Epitome Shoes</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/shoes6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Adidas Shoes</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/shoes7.jpg" alt="" />
+          <div class="p-details">
+            <h2>Coperate Shoes</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/watch6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Smart Lady Watch</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/watch4.jpg" alt="" />
+          <div class="p-details">
+            <h2>Dove Smart Watch</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/watch3.jpg" alt="" />
+          <div class="p-details">
+            <h2>Karis Smart Watch</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/watch2.jpg" alt="" />
+          <div class="p-details">
+            <h2>Tranya Smart Watch</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/watch1.jpg" alt="" />
+          <div class="p-details">
+            <h2>Tranya Smart Watch</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag5.jpg" alt="" />
+          <div class="p-details">
+            <h2>Gucci Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag4.jpg" alt="" />
+          <div class="p-details">
+            <h2>Zara Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag3.webp" alt="" />
+          <div class="p-details">
+            <h2>Louis Voiton Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag2.webp" alt="" />
+          <div class="p-details">
+            <h2>DLG Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag1.jpg" alt="" />
+          <div class="p-details">
+            <h2>PUMA roman Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="/A-img/bag6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Class Bag</h2>
+            <h3>$60</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
